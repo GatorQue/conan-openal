@@ -1,0 +1,6 @@
+PROJECT(conanopenal)
+cmake_minimum_required(VERSION 2.8)
+include(conanbuildinfo.cmake)
+CONAN_BASIC_SETUP()
+include_directories(${CMAKE_SOURCE_DIR}/openal-soft-openal-soft-1.17.2)
+add_subdirectory("./openal-soft-openal-soft-1.17.2")
